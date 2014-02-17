@@ -4,7 +4,6 @@ LANG: JAVA
 TASK: test
 */
 
-package stevensotelo;
 
 import java.io.*;
 import java.util.*;
