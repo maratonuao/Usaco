@@ -26,7 +26,7 @@ public class ride_andresTorres {
         String dato = "";
         long valorNombre = 1;
         long valorEquipo = 1;
-        StringTokenizer st ;//= new StringTokenizer(f.readLine());
+//        StringTokenizer st ;//= new StringTokenizer(f.readLine());
         int z = 0;
 
         while ((dato = f.readLine()) != null) {
