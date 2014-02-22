@@ -1,8 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+ID: andrest3
+LANG: JAVA
+TASK: ride
+*/
 
 import java.io.*;
 import java.util.*;
@@ -43,9 +43,9 @@ public class ride_andresTorres {
             }
             if (z == 1) {
                 if (valorNombre % 47 == valorEquipo % 47) {
-                    out.write("GO");
+                    out.println("GO");
                 } else {
-                    out.write("STAY");
+                    out.println("STAY");
                 }
                 z = 0;
             }
