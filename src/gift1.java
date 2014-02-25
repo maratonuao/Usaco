@@ -6,8 +6,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
 import java.util.StringTokenizer;
 
 /*
@@ -72,17 +70,13 @@ public class gift1
                     Movimiento m=(Movimiento)miembros.get(emisor);
                     m.inicio=inicio;
                     if(personas > 0)
+                    {               
                         m.recibir(inicio % personas);
-                    miembros.put(emisor, m);
-                    if(personas > 0)
-                    {                        
                         int regalo=inicio/personas;
                         for(int i=1;i<=personas;i++)
                         {
-                            String receptor=f.readLine();
-                            Movimiento r=(Movimiento)miembros.get(receptor);
+                            Movimiento r=(Movimiento)miembros.get(f.readLine());
                             r.recibir(regalo);
-                            miembros.put(receptor,r);
                         }
                     }
                 }
