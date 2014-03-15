@@ -48,7 +48,7 @@ public class gift1
             BufferedReader f = new BufferedReader(new FileReader("gift1.in"));
             //Objeto para crear archivo de salida
             PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("gift1.out")));            
-            //            
+            //
             String linea;            
             while((linea=f.readLine()) != null)
             {
